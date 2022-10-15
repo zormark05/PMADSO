@@ -1,0 +1,252 @@
+ /* colores */
+
+ /* blanco #272944 */
+ /* azul #404BDA */
+ /* negro #363853 */
+ /* blanco hueso #F9F9FA */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2f336b;
+    height: 90vh;
+    width: 200vh;
+    margin: 30px;
+    display: flex;
+    flex-direction:row ;
+    gap: 20px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 37rem;
+    background-color: #363853;
+    justify-content:space-around ;
+    align-items: center;
+   
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.cuadro{
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    margin-right: 10px;
+}
+
+.element_aside{
+    display: flex;
+    justify-content: space-around;
+    justify-content: left;
+    padding: 10px;
+    align-items: center;
+}
+
+.element_aside a{
+    text-decoration: none;
+    color:  #F9F9FA;
+   
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+   flex-grow: 1;
+   
+   
+
+}
+
+#search{
+    background-color: #363853;
+    border: none;
+    height: 30px;
+    width: 300px;
+}
+
+#container_search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#EN{
+    background-color:#363853 ;
+    height: 30px;
+    width: 50px;
+    color: #F9F9FA;
+    font-weight: bold;
+}
+#EN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* error al no obeder las caracterisiticas de justif content */
+#iconos_search{
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    justify-content: space-between;
+    
+}
+
+
+.cuadro2{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+}
+
+
+#title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+#title h3{
+    font-size: larger;
+    color: #F9F9FA;
+}
+#iconos_title{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    background-color: #363853;
+    padding: 5px;
+
+}
+
+#iconos_title a{
+    text-decoration: none;
+    color: #F9F9FA;
+    padding-right: 5px;
+   
+}
+#cuadrito{
+    height: 12px;
+    width: 12px;
+    background-color: gray;
+}
+
+
+#subtitle{
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    color: gray;
+    font-size: small;
+    text-align: center;
+}
+
+.circle2{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    border-radius: 40px;
+    margin-bottom: 20px;  
+    margin-top: 20px; 
+}
+.name_user{
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#users_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F9F9FA;
+    font-size: small;
+    height: 400px;
+    overflow-y: scroll;
+    
+}
+.user{
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #F9F9FA
+}
+.date_user{
+    color: gray;
+}
+
+.active_botton{
+    background-color: #363853;
+    border: #F9F9FA solid 1px;
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icono2{
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+}
+
+#comeback {
+    position: fixed;
+    top: 0;
+    
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+#comeback a{
+    text-decoration: none;
+    color: black;
+}
+
+/* configuración de scroll del contendo */
+#users_container::-webkit-scrollbar {
+    -webkit-appearance:none;
+}
+
+#users_container::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#users_container::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#users_container::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+#users_container::-webkit-scrollbar-thumb {
+    background-color: #363853;
+    border-radius: 20px;
+    border: 2px solid #363853;
+}
+
+#users_container::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
